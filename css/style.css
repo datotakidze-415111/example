@@ -1,0 +1,271 @@
+* {
+    font-family: 'roboto', 'BPG Nino Mtavruli';
+}
+
+/* Needed Elements */
+
+.active {
+    color: #EE4036;
+}
+
+.arrow {
+    width: 1px;
+    height: 30px;
+    background-color: #3D58A6;
+}
+
+.same-section {
+    width: 85%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-title {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 23px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* ================= Header ================= */
+
+
+/* => Navigation Styles */
+.nav {
+    width: 85%;
+    height: auto;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'BPG Nino Mtavruli';
+}
+.logo {
+    cursor: pointer;
+    margin-right: 20px;
+}
+.nav-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ul-li {
+    margin-left: 10px;
+}
+.li-a {
+    color: #3D58A6;
+    transition: 0.5s;
+}
+.li-a:hover {
+    color: #EE4036;
+    transition: 0.5s;
+}
+
+/* ================= Main ================= */
+
+/* Home Page => Feature boxes Section */
+
+.featured-boxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.feature-article {
+    width: 560px;
+    background-color: #F2F2F2;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.feature-article:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transform: scale(1.01);
+    transition: 0.5s;
+}
+
+.feature-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #3D58A6;
+}
+
+.feature-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-img img {
+    width: 60%;
+    cursor: pointer;
+}
+
+.feature-text {
+    width: 70%;
+}
+
+.feature-text p {
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+/* Blogs Page => article-Sections */
+
+.blogs-sections {
+    padding: 30px;
+}
+.blog-article {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.article-first_detail {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.article-second_detail {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.blog-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.date-box {
+    width: 55px;
+    height: 55px;
+    background-color: #3D58A6;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.blog-date p {
+    font-size: 18px;
+    color: #3D58A6;
+}
+.blog-image {
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.blog-image:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transform: scale(1.01);
+    transition: 0.5s;
+}
+.blog-description p {
+    line-height: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.blog-title h3 {
+    font-weight: bold;
+}
+
+/* Contact Page => Contact-Section Style */
+
+.contact-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.contact-box h3 {
+    font-size: 20px;
+    color: #3D58A6;
+    margin-bottom: 10px;
+}
+.contact-box p {
+    color: gray;
+    margin-bottom: 5px;
+}
+.contact-box p span {
+    color: black;
+}
+
+.contact-map {
+    width: 55%;
+}
+.contact-map iframe {
+    width: 100%;
+}
+
+
+
+/* ===== Footer ===== */
+
+.footer {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.social-boxes {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.social-boxes .social-box {
+    padding: 20px;
+    cursor: pointer;
+}
+
+
